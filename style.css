@@ -1,0 +1,145 @@
+.news-section{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+    .news-section{
+        flex-direction: row;
+        column-gap: 30px;
+        margin: 50px;
+    }
+}
+
+.text-card{
+    background-color: #232836;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px hsla(0, 0%, 0%, 0.5);
+    margin: 20px auto;
+    width: 90%;
+}
+
+.text-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 2px solid hsla(0, 0%, 100%, 0.2);
+}
+
+.text-card .card-body{
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 20px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+    cursor: pointer;
+}
+
+.card-body span{
+    color: #2ecc71;
+}
+
+.text-card .card-body:last-child{
+    border: 0;
+}
+
+.latest-news button{
+    background-color: #2ecc71;
+    border: 0;
+    color: white;
+    padding: 10px 5px;
+    font-weight: bolder;
+}
+
+.latest-news button:hover{
+    background-color: hsla(145, 63%, 49%, 0.747);
+}
+
+.latest-news select{
+    background-color: #232836;
+    border: 1px solid hsla(0, 0%, 100%, 0.2);
+    padding: 10px 5px;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    outline: 0;
+    cursor: pointer;
+}
+
+.latest-news select:focus{
+    border: 2px solid hsla(145, 63%, 49%, 0.219);
+    color: #fff;
+}
+
+.recent-comments span{
+    display: block;
+}
+
+.text-card.past-questions p{
+    padding: 10px;
+}
+
+.subjects {
+    display: fflex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subjects a{
+    display: block;
+    text-decoration: none;
+    color: #2ecc71;
+    padding: 10px;
+}
+
+.subjects a:hover{
+    color: hsla(145, 63%, 49%, 0.507);
+}
+
+@media only screen and (max-width: 768px) {
+    .subjects {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .subjects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+.subjects > * {
+    flex-basis: calc(33.33% - 20px);
+}
+}
+
+.past-questions-btn{
+    margin: 10px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.past-questions button{
+    background-color: #2ecc71;
+    border: 0;
+    color: white;
+    padding: 10px 5px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.past-questions button:hover{
+    background-color: hsla(145, 63%, 49%, 0.747);
+}
+
+
+
+/* #2c3e50 (a dark, muted blue-gray)
+#1a1d23 (a deep, cool black)

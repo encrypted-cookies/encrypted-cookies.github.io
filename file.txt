@@ -1,0 +1,33 @@
+const quizData = [
+	{
+		question: "What is 2 + 9?",
+		options: ["3", "11", "5", "6"],
+		answer: 1
+	},
+	{
+		question: "What is the capital of USA",
+		options: ["Paris", "London", "New York", "Rome"],
+		answer: 2
+	},
+	{
+		question: "What is your daddy?",
+		options: ["otedolla", "jimin", "Masir", "jung-kook"],
+		answer: 2
+	},
+	{
+		question: "What is 2 + 2?",
+		options: ["3", "4", "5", "6"],
+		answer: 1
+	},
+	{
+		question: "What is the capital of France?",
+		options: ["Paris", "London", "Berlin", "Rome"],
+		answer: 0
+	},
+	{
+		question: "What is 18 + 2?",
+		options: ["20", "4", "53", "16"],
+		answer: 0
+	},
+	// Add more questions here
+];

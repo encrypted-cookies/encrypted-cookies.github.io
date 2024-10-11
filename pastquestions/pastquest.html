@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="pastquest.css">
+    <link rel="stylesheet" href="../headercomponent.css">
+    <title>Exam Genie</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="" alt="">
+            <h1 class="app-name">Exam Genie</h1>
+        </div>
+        <div class="header-right">
+            <span class="material-symbols-outlined search-bar icons">search</span>
+            <button class="create-account">SIGN UP</button>
+            <span class="material-symbols-outlined icons navbar-icon">menu</span>
+            <!-- NAV BAR -->
+            <nav class="nav">
+                <ul>
+                  <li><a href="#">Latest News</a></li>
+                  <li><a href="#">Past Questions</a></li>
+                  <li><a href="#">Practice Exam</a></li>
+                  <li><a href="#">Tutorials</a></li>
+                  <li><a href="#">Register</a></li>
+                </ul>
+            </nav>
+
+            <div class="search-container">
+                <input type="search" placeholder="Enter Search Keyword">
+                <div class="search-icon-container">
+                    <span class="material-symbols-outlined searcher icons">search</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="container">
+        <div class="breadcrumb">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#past-questions">Past Questions</a>
+            <span class="name"></span>
+        </div>
+        <div class="header">
+            <h2><span class="name"></span> Past Questions | JAMB, WAEC, NECO and Post UTME Past Questions</h2>
+        </div>
+
+        <div class="responsive">
+            <div class="sec1">
+                <p class="sub-defination">Lorem, ipsum dolor sit
+                    amet consectetur adipisicing elit. Nobis nesciunt 
+                    ipsum quas, nemo ex quo reprehenderit natus aperiam animi eum error, iusto numquam earum repellat debitis quia nihil, soluta at?
+                    Odit molestiae, tempore dicta quisquam a
+                    reiciendis quos explicabo quidem! Nostrum 
+                    optio odit, repellat nemo sapiente maxime 
+                    fugit maiores narchitecto inventore iste dolorem 
+                </p>
+                <div class="filter">
+                    <div>
+                        <h3><label for="exam">Select Exam</label></h3>
+                        <select name="" id="exam">
+                            <option value="">Select an exam</option>
+                            <option value="jamb">JAMB UTME</option>
+                            <option value="waec">WAEC SSCE</option>
+                            <option value="postutme">UNIBEN Post-UTME</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="exam-page"><h3>Select Page</h3></label>
+                        <select name="" id="exam-page">
+                            <option value="page1">PAGE 1</option>
+                            <option value="page2">PAGE 2</option>
+                            <option value="page3">PAGE 3</option>
+                            <option value="page4">PAGE 4</option>
+                            <option value="page5">PAGE 5</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="exam-year"><h3>Select Exam Year</h3></label>
+                        <select name="" id="exam-year">
+                            <option value="2024">2024</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="study-mode"><h3>Select Study Mode</h3></label>
+                        <select name="" id="study-mode">
+                            <option value="hide">Hide Correct Answer</option>
+                            <option value="show">Show Correct Answer</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="questionbox"></div>
+            </div>
+
+            <div class="prev-next">
+                <button class="prev-button" onclick="prevPage()"><span class="material-symbols-outlined icons">arrow_back</span>Previous Page</button>
+                <button class="next-button" onclick="nextPage()">Next Page<span class="material-symbols-outlined icons">arrow_forward</span></button>
+            </div>
+            <div class="sec2"></div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="general">
+            <h4>General Information</h4>
+            <ul>
+                <a href="#"><li>Organizing and providing relevant educational content, resources and information for students.</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Contact Us</li></a>
+                <a href="#"><li>info@examgenie.com</li></a>
+            </ul>
+        </div>
+
+        <div class="quick-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <a href="#"><li>Home Page</li></a>
+                <a href="#"><li>School News</li></a>
+                <a href="#"><li>Scholarship</li></a>
+                <a href="#"><li>Articles</li></a>
+                <a href="#"><li>Past Questions</li></a>
+                <a href="#"><li>Practice Exam</li></a>
+            </ul>
+        </div>
+
+        <div class="tutorials">
+            <h4>Tutorials</h4>
+            <ul>
+                <a href="#"><li>English Language</li></a>
+                <a href="#"><li>Mathematics</li></a>
+                <a href="#"><li>Physics</li></a>
+                <a href="#"><li>Chemistry</li></a>
+                <a href="#"><li>Biology</li></a>
+                <a href="#"><li>Economics</li></a>
+                <a href="#"><li>Government</li></a>
+                <a href="#"><li>Computer Literacy</li></a>
+            </ul>
+
+        </div>
+
+        <div class="disclaimer">
+            <h4>Disclaimer</h4>
+            <p>All names, acronyms, logos and trademarks displayed on this website are those of their respective owners. 
+                Unless specified, this website is not in  anyway affiliated with any of the institutins featured.
+                it is always recommended to visit an institution's official website for more information.            
+            </p>
+        </div>
+    </section>
+
+    <hr>
+    <div class="footer-base">
+        <a href="#">Home</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms Of Service</a>
+    </div>
+
+    <script src="pastquest.js"></script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1a1d23;
+    font-family: fredoka;
+    color: white;
+    padding-top: 150px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.form{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 30px;
+    max-width: 430px;
+    width: 100%;
+}
+
+.form.login{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.forms.show-login .form.login{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.forms.show-login .form.signup{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.container header{
+    font-size: 20px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+
+form{
+    margin-top: 30px;
+}
+
+.form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #CACACA;
+}
+
+.field input:focus{
+    border-bottom-width: 2px;
+}
+
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.field button{
+    background-color: #2ecc71;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.field button:hover{
+    background-color: hsla(145, 63%, 39%, 0.9);
+}
+
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+
+.form a{
+    color: #2ecc71;
+    text-decoration: none;
+}
+
+.form-content a:hover{
+    text-decoration: underline;
+}
+
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    background-color: #d4d4d4;
+    margin: 36px 0;
+}
+
+.line:before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;   
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #232836;
+    padding: 0 15px;
+}
+
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.facebook{
+    color: #fff;
+    background-color: #4267b2;
+}
+
+a.facebook .facebook-icon{
+    height: 28px;
+    width: 28px;
+    background-color: #fff;
+    color: #4a44a3;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook-icon,
+img.google-img{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+img.google-img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+
+a.google{
+    border: 1px solid #CACACA;
+}
+
+a.google span{
+    color: #232836;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.policy{
+    color: #232836;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 150px;
+    background-color: hsl(0, 0%, 5%);
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer h4{
+    color: #2ecc71;
+}
+
+.footer div{
+    margin: 20px 0;
+}
+
+.footer div ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer div ul li{
+    margin: 7px;
+    list-style-type: none;
+}
+
+@media only screen and (min-width: 768px){
+    .footer{
+        flex-direction: row;
+        column-gap: 50px;
+    }
+
+    .footer .disclaimer{
+        width: 500px;
+    }
+}
+
+.footer-base{
+    background-color: hsl(0, 0%, 5%);
+    text-align: center;
+    padding: 7px;
+}
+
+.footer-base hr{
+    height: 1px;
+    background-color: hsla(220, 47%, 96%, 0.1);
+}
+
+.footer-base a{
+    margin: 5px 4px;
+    text-decoration: none;
+    color: #2ecc71;
+}

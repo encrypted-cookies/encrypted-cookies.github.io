@@ -1,0 +1,325 @@
+{
+    "exams": {
+        "waec":[
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "11",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            }
+        ],
+        "jamb":[
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "11",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            }
+        ],
+        "postutme":[
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "11",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            },
+            {
+                "question": "What is 2 + 9?",
+                "options": ["3", "11", "5", "6"],
+                "answer": 1
+            },
+            {
+                "question": "What is the capital of USA",
+                "options": ["Paris", "London", "New York", "Rome"],
+                "answer": 2
+            }
+        ]
+    }
+}
