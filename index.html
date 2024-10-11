@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="headercomponent.css">
+    <title>Exam Genie</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="" alt="">
+            <h1 class="app-name">Exam Genie</h1>
+        </div>
+        <div class="header-right">
+            <span class="material-symbols-outlined search-bar icons">search</span>
+            <button class="create-account">SIGN UP</button>
+            <span class="material-symbols-outlined icons navbar-icon">menu</span>
+            <!-- NAV BAR -->
+            <nav class="nav">
+                <ul>
+                  <li><a href="#">Latest News</a></li>
+                  <li><a href="#">Past Questions</a></li>
+                  <li><a href="#">Practice Exam</a></li>
+                  <li><a href="#">Tutorials</a></li>
+                  <li><a href="#">Register</a></li>
+                </ul>
+            </nav>
+
+            <div class="search-container">
+                <input type="search" placeholder="Enter Search Keyword">
+                <div class="search-icon-container">
+                    <span class="material-symbols-outlined searcher icons">search</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="news-section">
+        <div class="text-card latest-news">
+            <h2 class="card-head">Latest Updates</h2>
+            <div class="card-body">
+                <img src="img/latest1.jpg" alt="">
+                <p>List of Schools Whose Post UTME / DE Forms Have Been Released, 2024/2025 <span> · Featured</span></p>
+            </div>
+
+            <div class="card-body">
+                <img src="img/latest2.jpeg" alt="">
+                <p>JAMB Change of Course, Institution and Date Correction Guidelines, 2024 <span>· Featured</span></p>
+            </div>
+
+            
+            <div class="card-body">
+                <img src="img/latest3.png" alt="">
+                <p>After JAMB What’s Next? Questions Every UTME Candidate Should Ask, Know and Things to Do <span>· Featured</span></p>
+            </div>
+
+            <div class="card-body">
+                <img src="img/latest4.jpg" alt="">
+                <p>KSU Kabba Post UTME Eligible Candidates and Cut-off Mark for 2024/2025 · September 26, 2024</p>
+            </div>
+
+            <div class="card-body">
+                <img src="img/latest5.jpg" alt="">
+                <p>College of Nursing Sciences, Iyienu Post-UTME Result Released, 2024/2025 · September 26, 2024</p>
+            </div>
+
+            <div class="card-body">
+                <img src="img/latest6.jpg" alt="">
+                <p>UNICAL Suspends All Final Year Students from Faculty of Engineering Over Wild Exams Celebrations · September 26, 2024</p>
+            </div>
+
+            <div class="card-body">
+                <img src="img/latest7.jpg" alt="">
+                <p>FUHSO 4th Matriculation Ceremony Announced, 2023/2024 · September 26, 2024</p>
+            </div>
+
+            <div class="card-body">
+                <button>LOAD PREVIOUS POST</button>
+            </div>
+
+            <div class="card-body">
+                <select class="school-select" name="school-select">
+                    <option value="">FIND LATEST NEWS BY SCHOOL</option>
+                    <option value="Abia State University">Abia State University</option>
+                    <option value="Abubakar Tafawa Balewa University">Abubakar Tafawa Balewa University</option>
+                    <option value="Achievers University">Achievers University</option>
+                    <option value="Adamawa State University">Adamawa State University</option>
+                    <option value="Adekunle Ajasin University">Adekunle Ajasin University</option>
+                    <option value="Afe Babalola University">Afe Babalola University</option>
+                    <option value="Ahmadu Bello University">Ahmadu Bello University</option>
+                    <option value="Ajayi Crowther University">Ajayi Crowther University</option>
+                    <option value="Akwa Ibom State University">Akwa Ibom State University</option>
+                    <option value="Al-Hikmah University">Al-Hikmah University</option>
+                    <option value="Ambrose Alli University">Ambrose Alli University</option>
+                    <option value="Anambra State University">Anambra State University</option>
+                    <option value="Babcock University">Babcock University</option>
+                    <option value="Bauchi State University">Bauchi State University</option>
+                    <option value="Bayero University Kano">Bayero University Kano</option>
+                    <option value="Bells University of Technology">Bells University of Technology</option>
+                    <option value="Benue State University">Benue State University</option>
+                    <option value="Bingham University">Bingham University</option>
+                    <option value="Bowen University">Bowen University</option>
+                    <option value="Caleb University">Caleb University</option>
+                    <option value="Caritas University">Caritas University</option>
+                    <option value="Covenant University">Covenant University</option>
+                    <option value="Cross River State University">Cross River State University</option>
+                    <option value="Delta State University">Delta State University</option>
+                    <option value="Ebonyi State University">Ebonyi State University</option>
+                    <option value="Ekiti State University">Ekiti State University</option>
+                    <option value="Enugu State University">Enugu State University</option>
+                    <option value="Federal University of Agriculture">Federal University of Agriculture</option>
+                    <option value="Federal University of Technology">Federal University of Technology</option>
+                    <option value="Gregory University">Gregory University</option>
+                    <option value="Igbinedion University">Igbinedion University</option>
+                    <option value="Imo State University">Imo State University</option>
+                    <option value="Joseph Ayo Babalola University">Joseph Ayo Babalola University</option>
+                    <option value="Kaduna State University">Kaduna State University</option>
+                    <option value="Kogi State University">Kogi State University</option>
+                    <option value="Kwara State University">Kwara State University</option>
+                    <option value="Ladoke Akintola University">Ladoke Akintola University</option>
+                    <option value="Landmark University">Landmark University</option>
+                    <option value="Lagos State University">Lagos State University</option>
+                    <option value="Madonna University">Madonna University</option>
+                    <option value="Michael Okpara University">Michael Okpara University</option>
+                    <option value="Nasarawa State University">Nasarawa State University</option>
+                    <option value="National Open University">National Open University</option>
+                    <option value="Niger Delta University">Niger Delta University</option>
+                    <option value="Nnamdi Azikiwe University">Nnamdi Azikiwe University</option>
+                    <option value="Obafemi Awolowo University">Obafemi Awolowo University</option>
+                    <option value="Oduduwa University">Oduduwa University</option>
+                    <option value="Olabisi Onabanjo University">Olabisi Onabanjo University</option>
+                    <option value="Osun State University">Osun State University</option>
+                    <option value="Pan-Atlantic University">Pan-Atlantic University</option>
+                    <option value="Plateau State University">Plateau State University</option>
+                    <option value="Rivers State University">Rivers State University</option>
+                    <option value="Sokoto State University">Sokoto State University</option>
+                    <option value="Tai Solarin University">Tai Solarin University</option>
+                    <option value="Taraba State University">Taraba State University</option>
+                    <option value="University of Abuja">University of Abuja</option>
+                    <option value="University of Agriculture">University of Agriculture</option>
+                    <option value="University of Benin">University of Benin</option>
+                    <option value="University of Calabar">University of Calabar</option>
+                    <option value="University of Ibadan">University of Ibadan</option>
+                    <option value="University of Ilorin">University of Ilorin</option>
+                    <option value="University of Jos">University of Jos</option>
+                    <option value="University of Lagos">University of Lagos</option>
+                    <option value="University of Maiduguri">University of Maiduguri</option>
+                    <option value="University of Nigeria">University of Nigeria</option>
+                    <option value="University of Port Harcourt">University of Port Harcourt</option>
+                    <option value="University of Uyo">University of Uyo</option>
+                    <option value="Usmanu Danfodiyo University">Usmanu Danfodiyo University</option>
+                    <option value="Veritas University">Veritas University</option>
+                    <option value="Yobe State University">Yobe State University</option>
+                    <option value="Zamfara State University">Zamfara State University</option>
+                </select>
+            </div>
+
+            <div class="card-body">
+                <select name="" class="scholarship-select">
+                    <option value="">FIND LATEST SCHOLARSHIP BY CATEGORY</option>
+                    <option value="all">all latest scholarships</option>
+                    <option value="undergraduate">undergraduate scholarships</option>
+                    <option value="postgraduate">postgraduate scholarships</option>
+                    <option value="competitions">competitions</option>
+                    <option value="internships">internships and it placements</option>
+                    <option value="secondary">scholarships for secondary school students</option>
+                    <option value="masters">masters scholarships</option>
+                    <option value="phd">phd scholarships</option>
+                    <option value="fellowships">fellowships</option>
+                    <option value="exchange-programs">exchange programs</option>
+                    <option value="summer-schools">summer schools</option>
+                    <option value="language-courses">language courses</option>
+                    <option value="online-courses">online courses</option>
+                    <option value="certificates">certificates</option>
+                    <option value="diplomas">diplomas</option>
+                    <option value="bachelor">bachelor scholarships</option>
+                    <option value="mba">mba scholarships</option>
+                </select>       
+            </div>
+
+            <div class="card-body">
+                <button>LATEST SCHOOL NEWS</button>
+                <button>RECENT SCHOLARSHIPS</button>
+            </div>
+        </div>
+    
+    <section class="news-right">
+        <div class="text-card trending">
+            <h2 class="card-title">Trending</h2>
+            <div class="card-body">
+                <p>JAMB CAPS: Confirm Admission Status and Accept Your Admission in Admission Lists</p>
+            </div>
+
+            <div class="card-body">
+                <p>FUOYE Admission List Released, 2024/2025 Session: How to Check in Admission Lists</p>
+            </div>
+
+            <div class="card-body">
+                <p>JAMB CAPS Portal Activated for 2024/2025 Admission Exercise in Admission Lists</p>
+            </div>
+
+            <div class="card-body">
+                <p>BUK Post UTME Screening Portal for 2024/2025 Session in Bayero University Kano (BUK)</p>
+            </div>
+
+            <div class="card-body">
+                <p>IAUE Admission List Released for 2024/2025 Session in Admission Lists</p>
+            </div>
+        </div>
+
+        <div class="text-card recent-comments">
+            <h2 class="card-title">Recently Commented On</h2>
+            <div class="card-body">
+                <p>RSU Post UTME Eligible Candidates and Cut-off Mark for 2024/2025 <span>· 37 comments</span></p>
+            </div>
+            <div class="card-body">
+                <p>Delta State Poly Otefe-Oghara Post UTME Screening Form, 2024/2025 <span>· 15 comments</span></p>
+            </div>
+            <div class="card-body">
+                <p>UNIBEN Pre-degree (Foundation Studies) Admission Form for 2023/2024 Session <span>· 1 comment</span></p>
+            </div>
+            <div class="card-body">
+                <p>Adeleke University Post-UTME / DE Screening Details, 2024/2025 <span>· 3 comments</span></p>
+            </div>
+        </div>
+    </section>
+        
+    </section>
+
+    <section class="past-questions" id="past-questions">
+        <div class="text-card past-questions">
+            <h2 class="text-title">Study Past Exam Questions and Tutorials</h2>
+            <p>Exam Past Questions By Subject</p>
+            <div class="subjects">
+                <a href="#">Accounts</a>
+                <a href="#">Agricultural Science</a>
+                <a href="#">Animal Husbandry</a>
+                <a href="#">Biology</a>
+                <a href="#">Catering Craft Practice</a>
+                <a href="#">Chemistry</a>
+                <a href="#">I.R.S</a>
+                <a href="#">Civic Education</a>
+                <a href="#">Commerce</a>
+                <a href="#">Computer Studies</a>
+                <a href="#">Current Affairs</a>
+                <a href="#">Data Processing</a>
+                <a href="#">Economics</a>
+                <a href="#">English Language</a>
+                <a href="#">Fine Arts</a>
+                <a href="#">French</a>
+                <a href="#">Further Mathematics</a>
+                <a href="#">General Paper</a>
+                <a href="#">Geography</a>
+                <a href="#">Government</a>
+                <a href="#">Hausa</a>
+                <a href="#">History</a>
+                <a href="#">Home Economics</a>
+                <a href="#">Igbo</a>
+            </div>
+
+            <div class="card-body">
+                <button>STUDY PAST QUESTIONS</button>
+                <button>PRACTICE EXAMS</button>
+            </div>
+
+            <h2 class="card-title">Tutorials By Subject</h2>
+                <div class="subjects">
+                    <a href="#">English Language</a>
+                    <a href="#">Mathematics</a>
+                    <a href="#">Physics</a>
+                    <a href="#">Chemistry</a>
+                    <a href="#">Biology</a>
+                    <a href="#">Economics</a>
+                    <a href="#">Government</a>
+                    <a href="#">Computer Literacy</a>
+                    <a href="#">Agricultural Science</a>
+                </div>
+
+            <div class="card-body">
+                <button>SHOW AVAILABLE TUTORIALS</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="general">
+            <h4>General Information</h4>
+            <ul>
+                <a href="#"><li>Organizing and providing relevant educational content, resources and information for students.</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Contact Us</li></a>
+                <a href="#"><li>info@examgenie.com</li></a>
+            </ul>
+        </div>
+
+        <div class="quick-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <a href="#"><li>Home Page</li></a>
+                <a href="#"><li>School News</li></a>
+                <a href="#"><li>Scholarship</li></a>
+                <a href="#"><li>Articles</li></a>
+                <a href="#"><li>Past Questions</li></a>
+                <a href="#"><li>Practice Exam</li></a>
+            </ul>
+        </div>
+
+        <div class="tutorials">
+            <h4>Tutorials</h4>
+            <ul>
+                <a href="#"><li>English Language</li></a>
+                <a href="#"><li>Mathematics</li></a>
+                <a href="#"><li>Physics</li></a>
+                <a href="#"><li>Chemistry</li></a>
+                <a href="#"><li>Biology</li></a>
+                <a href="#"><li>Economics</li></a>
+                <a href="#"><li>Government</li></a>
+                <a href="#"><li>Computer Literacy</li></a>
+            </ul>
+
+        </div>
+
+        <div class="disclaimer">
+            <h4>Disclaimer</h4>
+            <p>All names, acronyms, logos and trademarks displayed on this website are those of their respective owners. 
+                Unless specified, this website is not in  anyway affiliated with any of the institutins featured.
+                it is always recommended to visit an institution's official website for more information.            
+            </p>
+        </div>
+    </section>
+
+    <hr>
+    <div class="footer-base">
+        <a href="#">Home</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms Of Service</a>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
